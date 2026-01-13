@@ -4,4 +4,11 @@ This project focuses on building a predictive machine learning model to estimate
 
 The workflow includes thorough data cleaning and preprocessing, exploratory data analysis with business insights, feature engineering, experimentation with multiple classification models (Logistic Regression, Random Forest, and Gradient Boosting), and model evaluation using insurance-appropriate metrics such as ROC-AUC and Log Loss.
 
+
 Logistic Regression achieved the highest ROC-AUC, while Gradient Boosting produced the lowest Log Loss, highlighting the trade-off between discrimination power and probability calibration in insurance risk modeling.
+
+
+## Results Summary
+- Logistic Regression achieved the highest ROC-AUC (0.683)
+- Gradient Boosting achieved the lowest Log Loss (0.497)
+- Random Forest underperformed relative to the other models
